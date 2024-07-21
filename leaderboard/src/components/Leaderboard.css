@@ -1,0 +1,37 @@
+/* src/Leaderboard.css */
+.leaderboard {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leaderboard h2 {
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .rank {
+    font-weight: bold;
+  }
+  
+  .username {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .time {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  

@@ -1,0 +1,21 @@
+/* src/Footer.css */
+.footer {
+    background-color: #282c34;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+  
+  .scrolling-text {
+    display: flex;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .scrolling-text img {
+    height: 50px;
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
